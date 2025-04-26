@@ -1,0 +1,14 @@
+.aboutme {
+    margin: auto;
+    max-width: 150rem;
+    display: grid;
+    border: #000 solid 2px;
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: 20rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.textContainer{
+    border: 2px solid #fefae0;
+    background-color: #d4a373;
+}

@@ -2,20 +2,37 @@
     margin: auto;
     max-width: 100rem;
     display: grid;
-    border: #000 solid 2px;
     grid-template-columns: repeat(
         auto-fill,
         minmax(300px, 1fr)
     );
-    grid-auto-rows: 15rem;
+    grid-auto-rows: 20rem;
     gap: 20px;
 }
 .textContainer{
-    border: 2px solid #fefae0;
-    background-color: #d4a373;
-    padding: 1rem;
+    background-color: #F0EAD2;
+    border-radius: 7px;
+    padding: 3rem 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.contact {
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    max-width: 62rem;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(300px, 1fr)
+    );
+    gap: 2rem;
+    justify-items: center;
+}
+
+.contactForm > div{
+    display: flex;
     flex-direction: column;
 }

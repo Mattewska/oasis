@@ -1,9 +1,9 @@
 .header{
     display: flex;
-    background-color: #a3b18a;
+    background-color: #adc178;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .links{

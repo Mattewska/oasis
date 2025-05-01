@@ -1,6 +1,6 @@
 function Products() {
     return (
-        <div>Products</div>
+        <main className="content">Products</main>
     )
 }
 export default Products

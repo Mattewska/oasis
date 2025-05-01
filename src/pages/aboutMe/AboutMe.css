@@ -29,7 +29,6 @@
         minmax(300px, 1fr)
     );
     gap: 2rem;
-    justify-items: center;
 }
 
 .contactForm > div{

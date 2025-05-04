@@ -3,26 +3,27 @@ import galpon from "../../assets/galpon1.jpeg"
 import patos from "../../assets/patos1.jpeg"
 import vacas from "../../assets/vacas1.jpeg"
 import piscicultura from "../../assets/piscicultura1.jpeg"
+import "./Products.css"
 
 function Products() {
     return (
         <main className="content">
-            <section>
-                <div className="imgDescriptionContainer">
-                    <figure className="imgselector"><img src={gallinas} alt="gallinas" /></figure>
-                </div>
-                <div className="imgDescriptionContainer">
-                    <figure className="imgselector"><img src={galpon} alt="galpon" /></figure>
-                </div>
-                <div className="imgDescriptionContainer">
-                <figure className="imgselector"><img src={patos} alt="patos" /></figure>
-                </div>
-                <div className="imgDescriptionContainer">
-                <figure className="imgselector"><img src={vacas} alt="vacas" /></figure>
-                </div>
-                <div className="imgDescriptionContainer">
-                    <figure className="imgselector"><img src={piscicultura} alt="piscicultura" /></figure>
-                </div>
+            <section className="products">
+                <figure className="imgSelector">
+                    <img className="item" src={gallinas} alt="" />
+                </figure>
+                <figure className="imgSelector">
+                    <img className="item" src={galpon} alt="" />
+                </figure>
+                <figure className="imgSelector">
+                    <img className="item" src={patos} alt="" />
+                </figure>
+                <figure className="imgSelector">
+                    <img className="item" src={vacas} alt="" />
+                </figure>
+                <figure className="imgSelector">
+                    <img className="item" src={piscicultura} alt="" />
+                </figure>
             </section>
         </main>
     )

@@ -8,21 +8,27 @@ import "./Products.css"
 function Products() {
     return (
         <main className="content">
+            <h1>Categorías de Productos</h1>
             <section className="products">
                 <figure className="imgSelector">
-                    <img className="item" src={gallinas} alt="" />
+                    <img className="item" src={gallinas} alt="gallinas" />
+                    <p>gallinas</p>
                 </figure>
                 <figure className="imgSelector">
-                    <img className="item" src={galpon} alt="" />
+                    <img className="item" src={galpon} alt="galpon" />
+                    <p>galpon</p>
                 </figure>
                 <figure className="imgSelector">
-                    <img className="item" src={patos} alt="" />
+                    <img className="item" src={patos} alt="patos" />
+                    <p>patos</p>
                 </figure>
                 <figure className="imgSelector">
-                    <img className="item" src={vacas} alt="" />
+                    <img className="item" src={vacas} alt="vacas" />
+                    <p>vacas</p>
                 </figure>
                 <figure className="imgSelector">
-                    <img className="item" src={piscicultura} alt="" />
+                    <img className="item" src={piscicultura} alt="piscicultura" />
+                    <p>piscicultura</p>
                 </figure>
             </section>
         </main>

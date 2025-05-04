@@ -1,5 +1,6 @@
 .header{
     background-color: #adc178;
+    max-width: 100vw;
     display: flex;
     align-items: center;
     grid-area: header;

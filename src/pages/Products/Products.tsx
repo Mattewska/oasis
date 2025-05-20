@@ -11,8 +11,8 @@ function Products() {
             <h1>Categorías de Productos</h1>
             <section className="products">
                 <figure className="imgSelector">
-                    <img className="item" src={gallinas} alt="gallinas" />
-                    <p>gallinas</p>
+                        <img className="item" src={gallinas} alt="gallinas" />
+                        <p>gallinas</p>
                 </figure>
                 <figure className="imgSelector">
                     <img className="item" src={galpon} alt="galpon" />
